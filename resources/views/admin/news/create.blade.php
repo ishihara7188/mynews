@@ -1,5 +1,5 @@
 @extends('layouts.admin')
-@section('title', 'ニュースの新規作成')
+@section('title', 'Create News')
 
 @section('content')
     <div class="container">
@@ -28,7 +28,7 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2" for="title">image</label>
+                        <label class="col-md-2" for="image">image</label>
                         <div class="col-md-10">
                             <input type="file" class="form-control-file" name="image">
                         </div>
